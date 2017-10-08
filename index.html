@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Лр №1</title>
+	</head>
+	<body>
+		<h1>Основы верстки и веб-программирования</h1>
+			<p>
+				<img src="http://ciu.nstu.ru/kaf/pic/persons/photo_63521_1351139843.jpg" width="70" alt="img">
+				<strong>Автор курса:</strong> Хворостов Владимир Александрович, <i>ассистент кафедры Экономической информатики</i>.
+			</p>
+			<hr>
+			<p>
+				<br>Данный курс предназначен для очного изучения на <em>1-м курсе</em> магистратуры факультета бизнеса специальности <b>230700.68</b> Прикладная информатика в веб-дизайне.
+			</p>
+		<h2>Лабораторная работа №1</h2>
+			<pre>В ходе лабораторной работы будет выполнен опредленный список задач.</pre>
+			<h3>Задачи:</h3>
+			<ul>
+				<li>Скачать и установить текстовый редактор <i>Notepad++</i></li>
+				<li>Создать HTML-документ с произвольным текстом. Документ должен иметь правильную структуру - в нем должны быть правильно использованы теги: 
+					<ol>
+						<li>doctype</li> 
+						<li>html</li> 
+						<li>head</li> 
+						<li>title</li> 
+						<li>meta (charset)</li> 
+						<li>body</li>
+					</ol>
+				</li>
+				<li>На произвольном тексте по усмотрению студента научиться использовать базовые теги для разметки текста: 
+					<ol>
+						<li>p</li> 
+						<li>ul</li> 
+						<li>ol</li> 
+						<li>li</li> 
+						<li>h1-h6</li> 
+						<li>strong</li>
+						<li>b</li> 
+						<li>em</li> 
+						<li>i</li> 
+						<li>hr</li> 
+						<li>pre</li> 
+						<li>br</li>
+					</ol>
+				</li>
+				<li>Научиться вставлять в текст изображения с помощью тега img.</li>
+				<li>Научиться создавать формы и таблицы с помощью тегов form, input, select, textarea, table, tr, td.</li>
+				<li>Создать второй HTML-документ и связать его с первым взаимными гиперссылками (тег a) 
+					<a href="a.html">a.html</a>
+				</li>
+				<li>Провести валидацию своего HTML-документа с помощью 
+					<a href="http://validator.w3.org/">http://validator.w3.org/</a>
+				</li>
+			</ul>
+		<h3>Форма</h3>
+		<p>Заполните форму</p>
+		<form method="post">
+			<p>
+				<b><i>Вы использовали все предложенные теги?</i></b>
+			</p>
+				<select>
+					<option>Да</option>
+					<option>Нет</option>
+				</select>
+			<p>
+				<b><i>Какие из предложенных тегов вы не использовали?</i></b>
+			</p>
+				<input type="checkbox" name="tag">h1<br>
+				<input type="checkbox" name="tag">h2<br>
+				<input type="checkbox" name="tag">h3<br>
+				<input type="checkbox" name="tag">h4<br>
+				<input type="checkbox" name="tag">h5<br>
+				<input type="checkbox" name="tag">h6<br>
+			<p>
+				<b><i>Почему вы выбрали этот факультатив?</i></b>
+			</p>
+				<p><textarea></textarea></p>
+			<input type="submit" value="Отправить">
+		</form>
+		<h3>Таблица</h3>
+			<table>
+				<tr>
+					<td>111</td>
+					<td>222</td>
+					<td>333</td>
+				</tr>
+				<tr>
+					<td>444</td>
+					<td>555</td>
+					<td>666</td>			
+				</tr>
+			</table>		
+	</body>
+</html>
